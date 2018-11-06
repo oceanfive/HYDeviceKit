@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HYDeviceKit_Example' do
+  pod 'HYDeviceKit', :path => '../'
+
+  target 'HYDeviceKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
