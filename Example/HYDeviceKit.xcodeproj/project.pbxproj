@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		097CA7C40786ED346436E93A /* Pods-HYDeviceKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYDeviceKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HYDeviceKit_Tests/Pods-HYDeviceKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		45C308964ABE811144358D4E /* Pods-HYDeviceKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYDeviceKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HYDeviceKit_Example/Pods-HYDeviceKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5602DFA2D95391729CC9F9DD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5602DFA2D95391729CC9F9DD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HYDeviceKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYDeviceKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,8 +64,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C37D90A30230267BC87746B /* Pods-HYDeviceKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYDeviceKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HYDeviceKit_Example/Pods-HYDeviceKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9A30AEFBEA1978B23A9A2DE5 /* Pods_HYDeviceKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYDeviceKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3AF6E0E76F6AEC16524050D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C8401EBA9361693725CF04C1 /* HYDeviceKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HYDeviceKit.podspec; path = ../HYDeviceKit.podspec; sourceTree = "<group>"; };
+		B3AF6E0E76F6AEC16524050D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C8401EBA9361693725CF04C1 /* HYDeviceKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HYDeviceKit.podspec; path = ../HYDeviceKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DA2B5DE7FA599F2CFDA9107B /* Pods-HYDeviceKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYDeviceKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HYDeviceKit_Tests/Pods-HYDeviceKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = oceanfive;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = D94N38GZR8;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -485,6 +488,7 @@
 			baseConfigurationReference = 8C37D90A30230267BC87746B /* Pods-HYDeviceKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D94N38GZR8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HYDeviceKit/HYDeviceKit-Prefix.pch";
 				INFOPLIST_FILE = "HYDeviceKit/HYDeviceKit-Info.plist";
@@ -500,6 +504,7 @@
 			baseConfigurationReference = 45C308964ABE811144358D4E /* Pods-HYDeviceKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D94N38GZR8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HYDeviceKit/HYDeviceKit-Prefix.pch";
 				INFOPLIST_FILE = "HYDeviceKit/HYDeviceKit-Info.plist";

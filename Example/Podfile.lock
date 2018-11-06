@@ -1,0 +1,16 @@
+PODS:
+  - HYDeviceKit (0.0.1)
+
+DEPENDENCIES:
+  - HYDeviceKit (from `../`)
+
+EXTERNAL SOURCES:
+  HYDeviceKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HYDeviceKit: e67d496befd5d52e188a2ce3e3fbb0c365311299
+
+PODFILE CHECKSUM: 42878327a327776f98e711a0aa7e4f85cc1fb768
+
+COCOAPODS: 1.5.2

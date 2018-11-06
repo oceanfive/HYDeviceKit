@@ -1,0 +1,6 @@
+framework module Pods_HYDeviceKit_Example {
+  umbrella header "Pods-HYDeviceKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

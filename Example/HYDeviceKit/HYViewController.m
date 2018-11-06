@@ -7,6 +7,7 @@
 //
 
 #import "HYViewController.h"
+#import "UIDevice+HYCategory.h"
 
 @interface HYViewController ()
 
@@ -18,6 +19,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *machineModel = [UIDevice hy_machineModel];
+    NSLog(@"machineModel: %@", machineModel);
+    
+    NSString *formattedMachineModel = [UIDevice hy_formattedMachineModel];
+    NSLog(@"formattedMachineModel: %@", formattedMachineModel);
 }
 
 - (void)didReceiveMemoryWarning
